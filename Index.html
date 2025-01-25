@@ -86,9 +86,31 @@
     <p>Las hojas son <span style="color:green">verdes</span> y luego <span style="color:darkgoldenrod">cafes</span> eyes.</p>
     <a href="https://lumatamorosva.github.io/PrimeraTarea/Pagina2.html">Ir a la otra página</a>
 <p>Link:</p>
-    <img src="Images/Colores.jpg">
+    <img src="Images/Colores.jpg" usemap="#workmap" width="153" height="160">
     <map name="workmap">
-    <area shape="rect" coords="0,1347,703,1347" alt="Verde" href="https://lumatamorosva.github.io/PrimeraTarea/Pagina2.html" title="Verde">
+    <area shape="rect" coords="0,80,153,153" alt="Verde" href="https://lumatamorosva.github.io/PrimeraTarea/Pagina2.html">
     </map>
+    <br>
+<picture><source media="(min-width:650px)"><img src="Images/IMG_3934.JPG" alt="Flowers"></picture>
+<canvas id="Canvas" 
+            width="200" height="100" 
+            style="border:1px solid black">
+    </canvas>
+    <svg width="100" height="100">
+        <circle cx="25" cy="25" r="40" stroke="blue" stroke-width="1" fill="green" />
+      </svg>
+
+      <h2>Multimedia:</h2>
+      <h3>Audio:</h3>
+      <audio controls>
+        <source src="Audio/bass.mp3" type="audio/mp3">
+      </audio>
+      <h3>Video:</h3>
+      <video width="320" height="240" controls>
+        <source src="Video/4.wmv" type="video/wmv">
+        <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+      </video>
+      <h3>Iframe:</h3>
+      <iframe src="https://www.youtube.com" title="youtube"></iframe>
 </body>
 </html>
